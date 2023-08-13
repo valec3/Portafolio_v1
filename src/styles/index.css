@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Eudoxus Sans",sans-serif;
+  }
+  
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+html{
+  user-select: #e31b0d;
+}
+body{
+  user-select: #e31b0d;
+  height: 500vh;
+}
+
+li{
+  list-style: none;
+  text-decoration: none;
+}
