@@ -12,7 +12,7 @@ const Header = () => {
     const headerShadow = useHeaderShadow()
 
     return (
-        <motion.div 
+        <motion.header 
         style={{boxShadow:headerShadow}}
         initial="hidden"
         whileInView="show"
@@ -43,7 +43,7 @@ const Header = () => {
                     </div>
                 </nav>
             </div>
-        </motion.div>
+        </motion.header>
     )
 }
 

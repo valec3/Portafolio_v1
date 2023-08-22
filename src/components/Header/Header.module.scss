@@ -1,6 +1,7 @@
 @import "../../styles/contants.scss";
 
 .wrapper{
+    position: relative;
     position: sticky;
     z-index: 9999;
     opacity: 1;
@@ -52,6 +53,11 @@
             .phone{
                 gap: 1.1rem;
                 flex-wrap: wrap;
+                @media (max-width: 820px) and (min-width: 768px) {
+                    p{
+                        display: none;
+                    }
+                }
                 svg{
                     padding: 10px;
                     color: $secondary;

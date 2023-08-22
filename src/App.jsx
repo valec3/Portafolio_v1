@@ -1,12 +1,14 @@
 import Header from "./components/Header/Header";
+import { Hero } from "./components/hero/Hero";
 import css from "./styles/app.module.scss"
 
 const App = () => {
   
   return(
-        <header className={`bg-primary ${css.container}`}>
+        <div className={`bg-primary ${css.container}`}>
             <Header/>
-        </header>
+            <Hero/>
+        </div>
     ) 
   
 };
