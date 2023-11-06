@@ -21,3 +21,18 @@ li{
   list-style: none;
   text-decoration: none;
 }
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button{
+  cursor: pointer;
+}
+input{
+  cursor: pointer;
+  outline: none;
+}
